@@ -48,7 +48,7 @@ $ python -m venv venv
 $ source venv/Scripts/activate  # Windows PowerShell
 
 # 3. Установите зависимости
-(venv)$ pip install -r requirements.txt  # файл создайте при необходимости
+(venv)$ pip install djangorestframework pandas
 
 # 4. Примените миграции и создайте суперпользователя
 (venv)$ python manage.py migrate
